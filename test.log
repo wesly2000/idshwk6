@@ -1,0 +1,1075 @@
+2022年 05月 18日 星期三 09:11:28 CST
+Linux ylx-virtual-machine 5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+stepping	: 12
+microcode	: 0xbe
+cpu MHz		: 2304.001
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds
+bogomips	: 4608.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+stepping	: 12
+microcode	: 0xbe
+cpu MHz		: 2304.001
+cache size	: 8192 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds
+bogomips	: 4608.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+MemTotal:        1987712 kB
+MemFree:           83492 kB
+MemAvailable:     888636 kB
+Buffers:           72268 kB
+Cached:           816968 kB
+SwapCached:            8 kB
+Active:           408488 kB
+Inactive:        1057440 kB
+Active(anon):       1432 kB
+Inactive(anon):   578260 kB
+Active(file):     407056 kB
+Inactive(file):   479180 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       4250648 kB
+SwapFree:        4249612 kB
+Dirty:               216 kB
+Writeback:             0 kB
+AnonPages:        576604 kB
+Mapped:           284768 kB
+Shmem:              3000 kB
+KReclaimable:     100440 kB
+Slab:             173536 kB
+SReclaimable:     100440 kB
+SUnreclaim:        73096 kB
+KernelStack:       10160 kB
+PageTables:        12884 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     5244504 kB
+Committed_AS:    3255228 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       59220 kB
+VmallocChunk:          0 kB
+Percpu:            95744 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      202624 kB
+DirectMap2M:     1894400 kB
+DirectMap1G:           0 kB
+Disk /dev/loop0：4 KiB，4096 字节，8 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop1：55.5 MiB，58183680 字节，113640 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop2：55.53 MiB，58212352 字节，113696 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop3：61.93 MiB，64913408 字节，126784 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop4：43.64 MiB，45748224 字节，89352 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop5：65.1 MiB，68259840 字节，133320 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop6：248.78 MiB，260841472 字节，509456 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop7：61.92 MiB，64901120 字节，126760 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/sda：25 GiB，26843545600 字节，52428800 个扇区
+Disk model: VMware Virtual S
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+磁盘标签类型：dos
+磁盘标识符：0x563a6c87
+
+设备       启动    起点     末尾     扇区  大小 Id 类型
+/dev/sda1  *       2048  1050623  1048576  512M  b W95 FAT32
+/dev/sda2       1052670 52420607 51367938 24.5G  5 扩展
+/dev/sda5       1052672 51640319 50587648 24.1G 83 Linux
+
+
+Disk /dev/loop8：50.98 MiB，53432320 字节，104360 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop9：219 MiB，229638144 字节，448512 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop10：65.22 MiB，68378624 字节，133552 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop11：54.24 MiB，56872960 字节，111080 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+文件系统        容量  已用  可用 已用% 挂载点
+udev            937M     0  937M    0% /dev
+tmpfs           195M  1.6M  193M    1% /run
+/dev/sda5        24G   20G  3.2G   87% /
+tmpfs           971M     0  971M    0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M    1% /run/lock
+tmpfs           971M     0  971M    0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0  100% /snap/bare/5
+/dev/loop1       56M   56M     0  100% /snap/core18/2253
+/dev/loop2       56M   56M     0  100% /snap/core18/2344
+/dev/loop3       62M   62M     0  100% /snap/core20/1270
+/dev/loop4       44M   44M     0  100% /snap/snapd/15177
+/dev/loop5       66M   66M     0  100% /snap/gtk-common-themes/1515
+/dev/loop6      249M  249M     0  100% /snap/gnome-3-38-2004/99
+/dev/loop7       62M   62M     0  100% /snap/core20/1376
+/dev/loop8       51M   51M     0  100% /snap/snap-store/547
+/dev/loop9      219M  219M     0  100% /snap/gnome-3-34-1804/77
+/dev/loop10      66M   66M     0  100% /snap/gtk-common-themes/1519
+/dev/loop11      55M   55M     0  100% /snap/snap-store/558
+/dev/sda1       511M  4.0K  511M    1% /boot/efi
+tmpfs           195M   32K  195M    1% /run/user/1000
+/dev/sr0        2.7G  2.7G     0  100% /media/ylx/Ubuntu 20.04.2.0 LTS amd64
+ 09:16:49 up 9 min,  1 user,  load average: 0.15, 0.23, 0.20
+ [ + ]  acpid
+ [ - ]  alsa-utils
+ [ + ]  anacron
+ [ - ]  apparmor
+ [ + ]  apport
+ [ + ]  avahi-daemon
+ [ + ]  binfmt-support
+ [ + ]  bluetooth
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ + ]  cups
+ [ + ]  cups-browsed
+ [ + ]  dbus
+ [ + ]  gdm3
+ [ - ]  grub-common
+ [ - ]  hwclock.sh
+ [ + ]  irqbalance
+ [ + ]  kerneloops
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ + ]  network-manager
+ [ + ]  open-vm-tools
+ [ + ]  openvpn
+ [ - ]  plymouth
+ [ - ]  plymouth-log
+ [ - ]  pppd-dns
+ [ + ]  procps
+ [ - ]  pulseaudio-enable-autospawn
+ [ - ]  rsync
+ [ + ]  rsyslog
+ [ - ]  saned
+ [ - ]  speech-dispatcher
+ [ - ]  spice-vdagent
+ [ + ]  ssh
+ [ + ]  suricata
+ [ + ]  sysstat
+ [ + ]  udev
+ [ + ]  ufw
+ [ + ]  unattended-upgrades
+ [ - ]  uuidd
+ [ + ]  whoopsie
+ [ - ]  x11-common
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.110.137  netmask 255.255.255.0  broadcast 192.168.110.255
+        inet6 fe80::2ef:f052:e5d4:b571  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:c9:e4:04  txqueuelen 1000  (以太网)
+        RX packets 187  bytes 28264 (28.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 151  bytes 15850 (15.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (本地环回)
+        RX packets 172  bytes 14678 (14.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 172  bytes 14678 (14.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+内核 IP 路由表
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         192.168.110.2   0.0.0.0         UG        0 0          0 ens33
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
+192.168.110.0   0.0.0.0         255.255.255.0   U         0 0          0 ens33
+_gateway (192.168.110.2) 位于 00:50:56:ef:50:75 [ether] 在 ens33
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.2  0.5 104000 11500 ?        -    09:07   0:02 /sbin/init splash
+root           -  0.2    -      -     - -        Ss   09:07   0:02 -
+root           2  0.0  0.0      0     0 ?        -    09:07   0:00 [kthreadd]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root           3  0.0  0.0      0     0 ?        -    09:07   0:00 [rcu_gp]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root           4  0.0  0.0      0     0 ?        -    09:07   0:00 [rcu_par_gp]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root           6  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/0:0H-events_highpri]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root           9  0.0  0.0      0     0 ?        -    09:07   0:00 [mm_percpu_wq]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          10  0.0  0.0      0     0 ?        -    09:07   0:00 [rcu_tasks_rude_]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          11  0.0  0.0      0     0 ?        -    09:07   0:00 [rcu_tasks_trace]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          12  0.0  0.0      0     0 ?        -    09:07   0:00 [ksoftirqd/0]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          13  0.0  0.0      0     0 ?        -    09:07   0:00 [rcu_sched]
+root           -  0.0    -      -     - -        I    09:07   0:00 -
+root          14  0.0  0.0      0     0 ?        -    09:07   0:00 [migration/0]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          15  0.0  0.0      0     0 ?        -    09:07   0:00 [idle_inject/0]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          16  0.0  0.0      0     0 ?        -    09:07   0:00 [cpuhp/0]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          17  0.0  0.0      0     0 ?        -    09:07   0:00 [cpuhp/1]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          18  0.0  0.0      0     0 ?        -    09:07   0:00 [idle_inject/1]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          19  0.0  0.0      0     0 ?        -    09:07   0:00 [migration/1]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          20  0.0  0.0      0     0 ?        -    09:07   0:00 [ksoftirqd/1]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          22  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/1:0H-events_highpri]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          23  0.0  0.0      0     0 ?        -    09:07   0:00 [kdevtmpfs]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          24  0.0  0.0      0     0 ?        -    09:07   0:00 [netns]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          25  0.0  0.0      0     0 ?        -    09:07   0:00 [inet_frag_wq]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          26  0.0  0.0      0     0 ?        -    09:07   0:00 [kauditd]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          27  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/0:2-events]
+root           -  0.0    -      -     - -        I    09:07   0:00 -
+root          28  0.0  0.0      0     0 ?        -    09:07   0:00 [khungtaskd]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          29  0.0  0.0      0     0 ?        -    09:07   0:00 [oom_reaper]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          30  0.0  0.0      0     0 ?        -    09:07   0:00 [writeback]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          31  0.0  0.0      0     0 ?        -    09:07   0:00 [kcompactd0]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          32  0.0  0.0      0     0 ?        -    09:07   0:00 [ksmd]
+root           -  0.0    -      -     - -        SN   09:07   0:00 -
+root          33  0.0  0.0      0     0 ?        -    09:07   0:00 [khugepaged]
+root           -  0.0    -      -     - -        SN   09:07   0:00 -
+root          80  0.0  0.0      0     0 ?        -    09:07   0:00 [kintegrityd]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          81  0.0  0.0      0     0 ?        -    09:07   0:00 [kblockd]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          82  0.0  0.0      0     0 ?        -    09:07   0:00 [blkcg_punt_bio]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          83  0.0  0.0      0     0 ?        -    09:07   0:00 [tpm_dev_wq]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          84  0.0  0.0      0     0 ?        -    09:07   0:00 [ata_sff]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          85  0.0  0.0      0     0 ?        -    09:07   0:00 [md]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          86  0.0  0.0      0     0 ?        -    09:07   0:00 [edac-poller]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          87  0.0  0.0      0     0 ?        -    09:07   0:00 [devfreq_wq]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          88  0.0  0.0      0     0 ?        -    09:07   0:00 [watchdogd]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          90  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/0:1H-kblockd]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          92  0.0  0.0      0     0 ?        -    09:07   0:00 [kswapd0]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          93  0.0  0.0      0     0 ?        -    09:07   0:00 [ecryptfs-kthrea]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          95  0.0  0.0      0     0 ?        -    09:07   0:00 [kthrotld]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root          96  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/24-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          97  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/25-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          98  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/26-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root          99  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/27-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         100  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/28-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         101  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/29-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         102  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/30-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         103  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/31-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         104  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/32-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         105  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/33-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         106  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/34-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         107  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/35-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         108  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/36-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         109  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/37-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         110  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/38-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         111  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/39-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         112  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/40-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         113  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/41-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         114  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/42-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         115  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/43-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         116  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/44-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         117  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/45-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         118  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/46-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         119  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/47-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         120  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/48-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         121  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/49-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         122  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/50-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         123  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/51-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         124  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/52-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         125  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/53-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         126  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/54-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         127  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/55-pciehp]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         128  0.0  0.0      0     0 ?        -    09:07   0:00 [acpi_thermal_pm]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         130  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_0]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         131  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_0]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         132  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_1]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         133  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_1]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         135  0.0  0.0      0     0 ?        -    09:07   0:00 [vfio-irqfd-clea]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         136  0.0  0.0      0     0 ?        -    09:07   0:00 [mld]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         137  0.0  0.0      0     0 ?        -    09:07   0:00 [ipv6_addrconf]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         141  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/1:2-rcu_par_gp]
+root           -  0.0    -      -     - -        I    09:07   0:00 -
+root         149  0.0  0.0      0     0 ?        -    09:07   0:00 [kstrp]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         152  0.0  0.0      0     0 ?        -    09:07   0:00 [zswap-shrink]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         153  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/u257:0-hci0]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         158  0.0  0.0      0     0 ?        -    09:07   0:00 [charger_manager]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         180  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/1:1H-kblockd]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         198  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_2]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         199  0.0  0.0      0     0 ?        -    09:07   0:00 [mpt_poll_0]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         200  0.0  0.0      0     0 ?        -    09:07   0:00 [mpt/0]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         201  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_2]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         202  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_3]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         203  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_3]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         204  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_4]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         205  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_4]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         206  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_5]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         207  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_5]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         208  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_6]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         209  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_6]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         210  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_7]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         211  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_7]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         212  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_8]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         213  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_8]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         214  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_9]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         215  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_9]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         216  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_10]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         217  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_10]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         218  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_11]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         219  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_11]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         220  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_12]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         221  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_12]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         222  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_13]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         223  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_13]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         224  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_14]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         225  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_14]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         226  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_15]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         227  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_15]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         228  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_16]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         229  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_16]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         230  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_17]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         231  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_17]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         232  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_18]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         233  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_18]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         234  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_19]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         235  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_19]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         236  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_20]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         237  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_20]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         238  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_21]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         239  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_21]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         240  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_22]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         241  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_22]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         242  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_23]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         243  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_23]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         244  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_24]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         245  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_24]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         246  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_25]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         247  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_25]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         248  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_26]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         249  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_26]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         250  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_27]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         251  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_27]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         252  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_28]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         253  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_28]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         254  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_29]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         255  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_29]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         256  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_30]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         257  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_30]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         258  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_31]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         259  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_31]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         282  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/u256:27-events_power_efficient]
+root           -  0.0    -      -     - -        I    09:07   0:00 -
+root         283  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/u256:28-events_power_efficient]
+root           -  0.0    -      -     - -        I    09:07   0:00 -
+root         284  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/u256:29-events_unbound]
+root           -  0.0    -      -     - -        I    09:07   0:00 -
+root         287  0.1  0.0      0     0 ?        -    09:07   0:01 [kworker/1:3-events]
+root           -  0.1    -      -     - -        I    09:07   0:01 -
+root         288  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_eh_32]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         289  0.0  0.0      0     0 ?        -    09:07   0:00 [scsi_tmf_32]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         311  0.0  0.0      0     0 ?        -    09:07   0:00 [jbd2/sda5-8]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         312  0.0  0.0      0     0 ?        -    09:07   0:00 [ext4-rsv-conver]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         349  0.0  1.0  68264 20820 ?        -    09:07   0:00 /lib/systemd/systemd-journald
+root           -  0.0    -      -     - -        S<s  09:07   0:00 -
+root         370  0.0  0.3  23980  7332 ?        -    09:07   0:00 /lib/systemd/systemd-udevd
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         371  0.0  0.0      0     0 ?        -    09:07   0:00 [ttm_swap]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         372  0.0  0.0      0     0 ?        -    09:07   0:00 [irq/16-vmwgfx]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         373  0.0  0.0      0     0 ?        -    09:07   0:00 [card0-crtc0]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         374  0.0  0.0      0     0 ?        -    09:07   0:00 [card0-crtc1]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         375  0.0  0.0      0     0 ?        -    09:07   0:00 [card0-crtc2]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         377  0.0  0.0      0     0 ?        -    09:07   0:00 [card0-crtc3]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         381  0.0  0.0      0     0 ?        -    09:07   0:00 [card0-crtc4]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         382  0.0  0.0      0     0 ?        -    09:07   0:00 [card0-crtc5]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         383  0.0  0.0      0     0 ?        -    09:07   0:00 [card0-crtc6]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         385  0.0  0.0      0     0 ?        -    09:07   0:00 [card0-crtc7]
+root           -  0.0    -      -     - -        S    09:07   0:00 -
+root         386  0.0  0.0      0     0 ?        -    09:07   0:00 [loop0]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         388  0.0  0.0      0     0 ?        -    09:07   0:00 [loop1]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         400  0.0  0.0      0     0 ?        -    09:07   0:00 [loop2]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         410  0.0  0.0      0     0 ?        -    09:07   0:00 [loop3]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         415  0.0  0.0      0     0 ?        -    09:07   0:00 [loop4]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         416  0.0  0.0      0     0 ?        -    09:07   0:00 [loop5]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         421  0.0  0.0      0     0 ?        -    09:07   0:00 [loop6]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         425  0.0  0.0      0     0 ?        -    09:07   0:00 [loop7]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         432  0.0  0.0 150668   288 ?        -    09:07   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         435  0.0  0.0      0     0 ?        -    09:07   0:00 [loop8]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         436  0.0  0.0      0     0 ?        -    09:07   0:00 [loop9]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         438  0.0  0.0      0     0 ?        -    09:07   0:00 [loop10]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         441  0.0  0.0      0     0 ?        -    09:07   0:00 [loop11]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+root         514  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/u257:2-hci0]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+systemd+     516  0.0  0.5  23868 11872 ?        -    09:07   0:00 /lib/systemd/systemd-resolved
+systemd+       -  0.0    -      -     - -        Ss   09:07   0:00 -
+systemd+     517  0.0  0.2  90220  5868 ?        -    09:07   0:00 /lib/systemd/systemd-timesyncd
+systemd+       -  0.0    -      -     - -        Ssl  09:07   0:00 -
+systemd+       -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         552  0.0  0.0      0     0 ?        -    09:07   0:00 [cryptd]
+root           -  0.0    -      -     - -        I<   09:07   0:00 -
+root         714  0.0  0.3 241640  7624 ?        -    09:07   0:00 /usr/lib/accountsservice/accounts-daemon
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         715  0.0  0.0   2548   704 ?        -    09:07   0:00 /usr/sbin/acpid
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         716  0.0  0.1  11244  2396 ?        -    09:07   0:00 /usr/sbin/anacron -d -q -s
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+avahi        718  0.0  0.1   8528  3124 ?        -    09:07   0:00 avahi-daemon: running [ylx-virtual-machine.local]
+avahi          -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         719  0.0  0.2   8364  4784 ?        -    09:07   0:00 /usr/lib/bluetooth/bluetoothd
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         722  0.0  0.1  12496  2732 ?        -    09:07   0:00 /usr/sbin/cron -f
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         724  0.0  0.4  31380  8328 ?        -    09:07   0:00 /usr/sbin/cupsd -l
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+message+     726  0.0  0.3   9904  6060 ?        -    09:07   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+message+       -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         727  0.0  1.0 339664 20040 ?        -    09:07   0:00 /usr/sbin/NetworkManager --no-daemon
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         735  0.0  0.1  81932  3620 ?        -    09:07   0:00 /usr/sbin/irqbalance --foreground
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         740  0.0  0.9  42404 19764 ?        -    09:07   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         741  0.1  0.5 244356 10304 ?        -    09:07   0:01 /usr/lib/policykit-1/polkitd --no-debug
+root           -  0.1    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+syslog       749  0.0  0.2 224352  4484 ?        -    09:07   0:00 /usr/sbin/rsyslogd -n -iNONE
+syslog         -  0.0    -      -     - -        Ssl  09:07   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  09:07   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  09:07   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         753  0.0  0.2 238792  5768 ?        -    09:07   0:00 /usr/libexec/switcheroo-control
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         758  0.0  0.3  16728  7904 ?        -    09:07   0:00 /lib/systemd/systemd-logind
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         759  0.0  0.6 392776 12516 ?        -    09:07   0:00 /usr/lib/udisks2/udisksd
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         760  0.0  0.4  53480  9848 ?        -    09:07   0:00 /usr/bin/VGAuthService
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         766  0.0  0.2  13684  4912 ?        -    09:07   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         776  0.1  0.3 242780  7640 ?        -    09:07   0:01 /usr/bin/vmtoolsd
+root           -  0.1    -      -     - -        Ssl  09:07   0:01 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+avahi        781  0.0  0.0   8348   312 ?        -    09:07   0:00 avahi-daemon: chroot helper
+avahi          -  0.0    -      -     - -        S    09:07   0:00 -
+root         813  0.0  0.6 178392 12328 ?        -    09:07   0:00 /usr/sbin/cups-browsed
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         815  0.0  0.5 314464 10808 ?        -    09:07   0:00 /usr/sbin/ModemManager
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         822  0.0  1.1 121204 22512 ?        -    09:07   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root         837  0.0  0.2  12180  5688 ?        -    09:07   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root           -  0.0    -      -     - -        Ss   09:07   0:00 -
+root         844  0.0  0.4 242836  8604 ?        -    09:07   0:00 /usr/sbin/gdm3
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+whoopsie     912  0.0  0.7 253140 15308 ?        -    09:07   0:00 /usr/bin/whoopsie -f
+whoopsie       -  0.0    -      -     - -        Ssl  09:07   0:00 -
+whoopsie       -  0.0    -      -     - -        Ssl  09:07   0:00 -
+whoopsie       -  0.0    -      -     - -        Ssl  09:07   0:00 -
+kernoops     916  0.0  0.0  11260   368 ?        -    09:07   0:00 /usr/sbin/kerneloops --test
+kernoops       -  0.0    -      -     - -        Ss   09:07   0:00 -
+kernoops     936  0.0  0.0  11260   448 ?        -    09:07   0:00 /usr/sbin/kerneloops
+kernoops       -  0.0    -      -     - -        Ss   09:07   0:00 -
+rtkit        982  0.0  0.1 152936  2976 ?        -    09:07   0:00 /usr/libexec/rtkit-daemon
+rtkit          -  0.0    -      -     - -        SNsl 09:07   0:00 -
+rtkit          -  0.0    -      -     - -        Ssl  09:07   0:00 -
+rtkit          -  0.0    -      -     - -        SNsl 09:07   0:00 -
+root        1075  0.0  0.4 255300  9656 ?        -    09:07   0:00 /usr/lib/upower/upowerd
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root           -  0.0    -      -     - -        Ssl  09:07   0:00 -
+colord      1284  0.0  0.7 249548 14380 ?        -    09:07   0:00 /usr/libexec/colord
+colord         -  0.0    -      -     - -        Ssl  09:07   0:00 -
+colord         -  0.0    -      -     - -        Ssl  09:07   0:00 -
+colord         -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root        1330  0.0  0.0      0     0 ?        -    09:07   0:00 [kworker/0:4-events]
+root           -  0.0    -      -     - -        I    09:07   0:00 -
+root        1336  0.0  0.4 170400  9296 ?        -    09:07   0:00 gdm-session-worker [pam/gdm-password]
+root           -  0.0    -      -     - -        Sl   09:07   0:00 -
+root           -  0.0    -      -     - -        Sl   09:07   0:00 -
+root           -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1346  0.0  0.5  19044 10100 ?        -    09:07   0:00 /lib/systemd/systemd --user LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin NOTIFY_SOCKET=/run/systemd/notify HOME=/home/ylx LOGNAME=ylx USER=ylx SHELL=/bin/bash INVOCATION_ID=353dde746b474a4caaf148af50bb4f29 JOURNAL_STREAM=8:49836 XDG_RUNTIME_DIR=/run/user/1000
+ylx            -  0.0    -      -     - -        Ss   09:07   0:00 -
+ylx         1347  0.0  0.1 103428  2852 ?        -    09:07   0:00 (sd-pam)
+ylx            -  0.0    -      -     - -        S    09:07   0:00 -
+ylx         1352  0.2  0.9 1748256 19812 ?       -    09:07   0:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1346 LISTEN_PID=1352 LISTEN_FDS=1 LISTEN_FDNAMES=pulseaudio.socket INVOCATION_ID=d9112cfa42ef40e795087f014c94c6d0 JOURNAL_STREAM=8:49993
+ylx            -  0.0    -      -     - -        S<sl 09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.2    -      -     - -        Ssl  09:07   0:01 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1355  2.7  2.2 671832 44212 ?        -    09:07   0:21 /usr/libexec/tracker-miner-fs HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1346 INVOCATION_ID=e421d8bacb9b45288c93ada5524aab79 JOURNAL_STREAM=8:48905
+ylx            -  2.2    -      -     - -        SNsl 09:07   0:18 -
+ylx            -  0.0    -      -     - -        SNsl 09:07   0:00 -
+ylx            -  0.0    -      -     - -        SNsl 09:07   0:00 -
+ylx            -  0.0    -      -     - -        SNsl 09:07   0:00 -
+ylx            -  0.0    -      -     - -        SNsl 09:07   0:00 -
+ylx         1357  0.0  0.3 243576  7124 ?        -    09:07   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1362  0.0  0.4  13320  9852 ?        -    09:07   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1346 LISTEN_PID=1362 LISTEN_FDS=1 LISTEN_FDNAMES=dbus.socket INVOCATION_ID=d5ac3885f6ba41ea80218484f26b080e JOURNAL_STREAM=8:48978
+ylx            -  0.0    -      -     - -        Ss   09:07   0:00 -
+ylx         1377  0.0  0.3 242964  7928 ?        -    09:07   0:00 /usr/libexec/gvfsd HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1346 INVOCATION_ID=6d39fb615f7946cd8be74ccb1952fab7 JOURNAL_STREAM=8:50043
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1382  0.0  0.3 378344  6140 ?        -    09:07   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1346 INVOCATION_ID=6d39fb615f7946cd8be74ccb1952fab7 JOURNAL_STREAM=8:50043
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1384  0.0  0.4 391068  9196 ?        -    09:07   0:00 /usr/libexec/gvfs-udisks2-volume-monitor HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1346 INVOCATION_ID=0ae0e8450b3541c08657502745543a14 JOURNAL_STREAM=8:50190
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1397  0.0  0.3 239128  6160 ?        -    09:07   0:00 /usr/libexec/gvfs-goa-volume-monitor HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1346 INVOCATION_ID=91cd376776474eac9b4a5077d09c559a JOURNAL_STREAM=8:50330
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1400  0.0  0.3 167244  6648 tty2     -    09:07   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu XDG_SEAT=seat0 LOGNAME=ylx USER=ylx USERNAME=ylx HOME=/home/ylx PWD=/home/ylx SHELL=/bin/bash PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_SESSION_TYPE=x11 XDG_VTNR=2 LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh XDG_SESSION_ID=2 XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_SESSION_CLASS=user XDG_CURRENT_DESKTOP=ubuntu:GNOME GDMSESSION=ubuntu DESKTOP_SESSION=ubuntu XDG_SESSION_DESKTOP=ubuntu
+ylx            -  0.0    -      -     - -        Ssl+ 09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl+ 09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl+ 09:07   0:00 -
+ylx         1403  0.0  1.8 550752 37368 ?        -    09:07   0:00 /usr/libexec/goa-daemon SHELL=/bin/bash DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GTK_MODULES=gail:atk-bridge JOURNAL_STREAM=8:48978 LANGUAGE=zh_CN:zh DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 INVOCATION_ID=d5ac3885f6ba41ea80218484f26b080e USER=ylx DBUS_STARTER_BUS_TYPE=session LANG=zh_CN.UTF-8 MANAGERPID=1346 HOME=/home/ylx LOGNAME=ylx
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1405  1.4  3.4 293032 67880 tty2     -    09:07   0:11 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3 USER=ylx LANGUAGE=zh_CN:zh XDG_SEAT=seat0 XDG_SESSION_TYPE=x11 HOME=/home/ylx DESKTOP_SESSION=ubuntu XORG_RUN_AS_USER_OK=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LOGNAME=ylx XDG_SESSION_CLASS=user USERNAME=ylx XDG_SESSION_ID=2 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 LANG=zh_CN.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_DESKTOP=ubuntu SHELL=/bin/bash GDMSESSION=ubuntu XDG_VTNR=2 PWD=/home/ylx
+ylx            -  1.2    -      -     - -        Sl+  09:07   0:10 -
+ylx            -  0.1    -      -     - -        Sl+  09:07   0:01 -
+ylx         1414  0.0  0.4 318124  8896 ?        -    09:07   0:00 /usr/libexec/goa-identity-service SHELL=/bin/bash DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GTK_MODULES=gail:atk-bridge JOURNAL_STREAM=8:48978 LANGUAGE=zh_CN:zh DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 INVOCATION_ID=d5ac3885f6ba41ea80218484f26b080e USER=ylx DBUS_STARTER_BUS_TYPE=session LANG=zh_CN.UTF-8 MANAGERPID=1346 HOME=/home/ylx LOGNAME=ylx
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1421  0.0  0.4 319976  9004 ?        -    09:07   0:00 /usr/libexec/gvfs-afc-volume-monitor HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1346 INVOCATION_ID=a3c7f1932d4749e59f92b2fb84f0cb80 JOURNAL_STREAM=8:51213
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+root        1425  0.0  0.0      0     0 ?        -    09:07   0:00 [krfcommd]
+root           -  0.0    -      -     - -        S<   09:07   0:00 -
+ylx         1428  0.0  0.3 238924  6016 ?        -    09:07   0:00 /usr/libexec/gvfs-mtp-volume-monitor HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1346 INVOCATION_ID=ce6b3b2750394840ba6aed45f07e2850 JOURNAL_STREAM=8:51254
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1432  0.0  0.3 241328  6768 ?        -    09:07   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1346 INVOCATION_ID=bab654998ce74777a0c22caa35208cbe JOURNAL_STREAM=8:51297
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1452  0.0  0.6 191448 13880 tty2     -    09:07   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu LANGUAGE=zh_CN:zh USER=ylx XDG_SEAT=seat0 XDG_SESSION_TYPE=x11 SSH_AGENT_PID=1520 SHLVL=0 HOME=/home/ylx DESKTOP_SESSION=ubuntu GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LOGNAME=ylx XDG_SESSION_CLASS=user USERNAME=ylx XDG_SESSION_ID=2 WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 LANG=zh_CN.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_DESKTOP=ubuntu XAUTHORITY=/run/user/1000/gdm/Xauthority SSH_AUTH_SOCK=/tmp/ssh-2CpoSoldpNiy/agent.1452 SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 XDG_VTNR=2 PWD=/home/ylx XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+ylx            -  0.0    -      -     - -        Sl+  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl+  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl+  09:07   0:00 -
+ylx         1520  0.0  0.0   6040   452 ?        -    09:07   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ylx            -  0.0    -      -     - -        Ss   09:07   0:00 -
+ylx         1538  0.0  0.3 305420  6604 ?        -    09:07   0:00 /usr/libexec/at-spi-bus-launcher HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx SHLVL=1 USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=2a678421a4a04bc088837bd62ad8ec6a JOURNAL_STREAM=8:51109
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1543  0.0  0.2   7244  3996 ?        -    09:07   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3 HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx SHLVL=1 USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=2a678421a4a04bc088837bd62ad8ec6a JOURNAL_STREAM=8:51109
+ylx            -  0.0    -      -     - -        S    09:07   0:00 -
+ylx         1549  0.0  0.2  93300  4256 ?        -    09:07   0:00 /usr/libexec/gnome-session-ctl --monitor HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/tmp/ssh-2CpoSoldpNiy/agent.1452 USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1346 INVOCATION_ID=e25edd950e014bbe85356b3d7b59a303 JOURNAL_STREAM=8:52257
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1555  0.0  0.8 488016 16008 ?        -    09:07   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/tmp/ssh-2CpoSoldpNiy/agent.1452 USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1346 INVOCATION_ID=d2d9218a12c24b88a7a46b20ea2aa7a2 JOURNAL_STREAM=8:52354
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1570  2.6 12.9 4165868 257568 ?      -    09:07   0:21 /usr/bin/gnome-shell HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1346 INVOCATION_ID=a0c56c387a10492b894671b009f6c20a JOURNAL_STREAM=8:51838
+ylx            -  2.5    -      -     - -        Ssl  09:07   0:20 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:10   0:00 -
+ylx         1592  0.6  0.4 314296  8528 ?        -    09:07   0:05 ibus-daemon --panel disable --xim HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1346 INVOCATION_ID=a0c56c387a10492b894671b009f6c20a JOURNAL_STREAM=8:51838 GJS_DEBUG_OUTPUT=stderr GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+ylx            -  0.1    -      -     - -        Sl   09:07   0:01 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.4    -      -     - -        Sl   09:07   0:03 -
+ylx         1596  0.0  0.3 239884  7332 ?        -    09:07   0:00 /usr/libexec/ibus-dconf HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1346 INVOCATION_ID=a0c56c387a10492b894671b009f6c20a JOURNAL_STREAM=8:51838 GJS_DEBUG_OUTPUT=stderr GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1597  0.2  1.6 279404 32064 ?        -    09:07   0:01 /usr/libexec/ibus-extension-gtk3 HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1346 INVOCATION_ID=a0c56c387a10492b894671b009f6c20a JOURNAL_STREAM=8:51838 GJS_DEBUG_OUTPUT=stderr GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+ylx            -  0.1    -      -     - -        Sl   09:07   0:01 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1599  0.0  1.4 201596 28556 ?        -    09:07   0:00 /usr/libexec/ibus-x11 --kill-daemon HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1346 INVOCATION_ID=a0c56c387a10492b894671b009f6c20a JOURNAL_STREAM=8:51838 GJS_DEBUG_OUTPUT=stderr GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1601  0.0  0.3 239832  7336 ?        -    09:07   0:00 /usr/libexec/ibus-portal SHELL=/bin/bash DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GNOME_DESKTOP_SESSION_ID=this-is-deprecated GDMSESSION=ubuntu USERNAME=ylx GTK_MODULES=gail:atk-bridge XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_SESSION_TYPE=x11 JOURNAL_STREAM=8:52354 LANGUAGE=zh_CN:zh IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 GNOME_SHELL_SESSION_MODE=ubuntu SSH_AGENT_PID=1520 INVOCATION_ID=d2d9218a12c24b88a7a46b20ea2aa7a2 QT_IM_MODULE=ibus XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority USER=ylx DBUS_STARTER_BUS_TYPE=session SHLVL=0 PWD=/home/ylx XDG_MENU_PREFIX=gnome- LANG=zh_CN.UTF-8 MANAGERPID=1346 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/ylx LOGNAME=ylx
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1612  0.0  0.3 162832  7344 ?        -    09:07   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session SHELL=/bin/bash DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-GpDEmJdVEA,guid=b1315491d961268bbbf6f72a628446eb XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin USERNAME=ylx GDMSESSION=ubuntu GTK_MODULES=gail:atk-bridge XDG_SESSION_TYPE=x11 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop JOURNAL_STREAM=8:51109 LANGUAGE=zh_CN:zh IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus INVOCATION_ID=2a678421a4a04bc088837bd62ad8ec6a XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority USER=ylx DBUS_STARTER_BUS_TYPE=accessibility SHLVL=1 PWD=/home/ylx MANAGERPID=1346 LANG=zh_CN.UTF-8 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/ylx LOGNAME=ylx
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1618  0.0  0.2 238948  4796 ?        -    09:07   0:00 /usr/libexec/xdg-permission-store HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=2196cc98002e485a864ac13adb478f8f JOURNAL_STREAM=8:52641
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1623  0.0  1.0 581112 20004 ?        -    09:07   0:00 /usr/libexec/gnome-shell-calendar-server SHELL=/bin/bash DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GNOME_DESKTOP_SESSION_ID=this-is-deprecated GDMSESSION=ubuntu USERNAME=ylx GTK_MODULES=gail:atk-bridge XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_SESSION_TYPE=x11 JOURNAL_STREAM=8:52354 LANGUAGE=zh_CN:zh IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 GNOME_SHELL_SESSION_MODE=ubuntu SSH_AGENT_PID=1520 INVOCATION_ID=d2d9218a12c24b88a7a46b20ea2aa7a2 QT_IM_MODULE=ibus XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority USER=ylx DBUS_STARTER_BUS_TYPE=session SHLVL=0 PWD=/home/ylx XDG_MENU_PREFIX=gnome- LANG=zh_CN.UTF-8 MANAGERPID=1346 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/ylx LOGNAME=ylx
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1631  0.0  1.2 393740 25724 ?        -    09:07   0:00 /usr/libexec/evolution-source-registry HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=260f76ef80e94958b72c03f5e5d4d3ec JOURNAL_STREAM=8:52695
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1638  0.0  1.5 842164 30308 ?        -    09:07   0:00 /usr/libexec/evolution-calendar-factory HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=c54aa538973c4411a80ec15807b50808 JOURNAL_STREAM=8:52742
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1645  0.0  0.2 156232  5672 ?        -    09:07   0:00 /usr/libexec/dconf-service SHELL=/bin/bash DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GNOME_DESKTOP_SESSION_ID=this-is-deprecated GDMSESSION=ubuntu USERNAME=ylx GTK_MODULES=gail:atk-bridge XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_SESSION_TYPE=x11 JOURNAL_STREAM=8:52354 LANGUAGE=zh_CN:zh IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 GNOME_SHELL_SESSION_MODE=ubuntu SSH_AGENT_PID=1520 INVOCATION_ID=d2d9218a12c24b88a7a46b20ea2aa7a2 QT_IM_MODULE=ibus XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority USER=ylx DBUS_STARTER_BUS_TYPE=session SHLVL=0 PWD=/home/ylx XDG_MENU_PREFIX=gnome- LANG=zh_CN.UTF-8 MANAGERPID=1346 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/ylx LOGNAME=ylx
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1653  0.0  1.6 750712 33660 ?        -    09:07   0:00 /usr/libexec/evolution-addressbook-factory HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=a962f19c3def432ca6457fa4532367dd JOURNAL_STREAM=8:52039
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1668  0.0  1.3 2528164 26176 ?       -    09:07   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications SHELL=/bin/bash DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GNOME_DESKTOP_SESSION_ID=this-is-deprecated GDMSESSION=ubuntu USERNAME=ylx GTK_MODULES=gail:atk-bridge XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_SESSION_TYPE=x11 JOURNAL_STREAM=8:52354 LANGUAGE=zh_CN:zh IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=b4e9d74918c0f751df16e142628446e9 GNOME_SHELL_SESSION_MODE=ubuntu SSH_AGENT_PID=1520 INVOCATION_ID=d2d9218a12c24b88a7a46b20ea2aa7a2 QT_IM_MODULE=ibus XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority USER=ylx DBUS_STARTER_BUS_TYPE=session SHLVL=0 PWD=/home/ylx XDG_MENU_PREFIX=gnome- LANG=zh_CN.UTF-8 MANAGERPID=1346 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/ylx LOGNAME=ylx
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1674  0.0  0.3 317216  7840 ?        -    09:07   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0 HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1346 INVOCATION_ID=6d39fb615f7946cd8be74ccb1952fab7 JOURNAL_STREAM=8:50043
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1684  0.0  0.3 313068  6652 ?        -    09:07   0:00 /usr/libexec/gsd-a11y-settings HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=4b29b6adfacc4eadac67bf6d122f223e JOURNAL_STREAM=8:52912
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1686  0.0  1.4 571708 29572 ?        -    09:07   0:00 /usr/libexec/gsd-color HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=515042c02e0141d186b36a2320d9049f JOURNAL_STREAM=8:52962
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1690  0.0  0.8 377028 16284 ?        -    09:07   0:00 /usr/libexec/gsd-datetime HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=81ebaafa546346408bbb90a9b096517b JOURNAL_STREAM=8:52200
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1696  0.0  0.3 315136  7920 ?        -    09:07   0:00 /usr/libexec/gsd-housekeeping HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=90af9c6c17b8467ab9ba522444302db0 JOURNAL_STREAM=8:53031
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1697  0.0  1.4 349680 28912 ?        -    09:07   0:00 /usr/libexec/gsd-keyboard HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=e485e0424e624185be38f358e884aab4 JOURNAL_STREAM=8:53290
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1707  0.0  1.5 691892 31424 ?        -    09:07   0:00 /usr/libexec/gsd-media-keys HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=4b4030b4d8044ede914f9e7551e195ce JOURNAL_STREAM=8:53080
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1708  0.0  1.4 497560 29456 ?        -    09:07   0:00 /usr/libexec/gsd-power HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=74798647929b4e0e9b5e71600fed7348 JOURNAL_STREAM=8:53124
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1714  0.0  0.5 251372 11104 ?        -    09:07   0:00 /usr/libexec/gsd-print-notifications HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=04d34328ebcf47c6b7d23f7b08b9b752 JOURNAL_STREAM=8:53171
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1715  0.0  0.3 460372  6188 ?        -    09:07   0:00 /usr/libexec/gsd-rfkill HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=ec876378d3cc45aba97da432f3a92ca4 JOURNAL_STREAM=8:54277
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1720  0.0  0.3 238780  5976 ?        -    09:07   0:00 /usr/libexec/gsd-screensaver-proxy HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=fb1afde1a83c46f59b5852c9025a657a JOURNAL_STREAM=8:54296
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1732  0.0  0.4 468188  9068 ?        -    09:07   0:00 /usr/libexec/gsd-sharing HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=dcc39c97cb604563a62783b921020702 JOURNAL_STREAM=8:53439
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1736  0.0  0.4 318572  8612 ?        -    09:07   0:00 /usr/libexec/gsd-smartcard HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=a93c1dfde0c94945b5dc27d4d3ca1088 JOURNAL_STREAM=8:54382
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1740  0.0  0.4 322764  9108 ?        -    09:07   0:00 /usr/libexec/gsd-sound HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=240fea726eeb44969ee46d9e1e81cc99 JOURNAL_STREAM=8:54451
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1746  0.0  0.3 388376  7312 ?        -    09:07   0:00 /usr/libexec/gsd-usb-protection HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=7bf7458f242e4eb0b82b0022ab9faba5 JOURNAL_STREAM=8:54571
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1750  0.0  0.2 231800  5624 ?        -    09:07   0:00 /usr/libexec/gsd-disk-utility-notify LANGUAGE=zh_CN:zh USER=ylx SSH_AGENT_PID=1520 XDG_SESSION_TYPE=x11 SHLVL=0 HOME=/home/ylx DESKTOP_SESSION=ubuntu GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/org.gnome.SettingsDaemon.DiskUtilityNotify.desktop GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu MANAGERPID=1346 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GIO_LAUNCHED_DESKTOP_FILE_PID=1750 IM_CONFIG_PHASE=1 LOGNAME=ylx _=/usr/bin/dbus-update-activation-environment JOURNAL_STREAM=8:52354 DESKTOP_AUTOSTART_ID=10409683fc9b3301e6165283607611906500000015550041 XDG_SESSION_CLASS=user USERNAME=ylx GNOME_DESKTOP_SESSION_ID=this-is-deprecated WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin INVOCATION_ID=d2d9218a12c24b88a7a46b20ea2aa7a2 SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 XDG_RUNTIME_DIR=/run/user/1000 XDG_MENU_PREFIX=gnome- DISPLAY=:0 LANG=zh_CN.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_SESSION_DESKTOP=ubuntu XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus PWD=/home/ylx XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1752  0.0  1.4 349164 28612 ?        -    09:07   0:00 /usr/libexec/gsd-wacom HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=6cae2cb00add4b0c93115f14394d0e3d JOURNAL_STREAM=8:54575
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1758  0.0  0.4 317436  8236 ?        -    09:07   0:00 /usr/libexec/gsd-wwan HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=c2099412c0124957bd028ade29d8a9f9 JOURNAL_STREAM=8:53521
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1760  0.0  1.5 350500 30088 ?        -    09:07   0:00 /usr/libexec/gsd-xsettings HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=71accbfdfe9d42c8880f06e581f968c8 JOURNAL_STREAM=8:54622
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:07   0:00 -
+ylx         1767  0.0  3.1 717652 62104 ?        -    09:07   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify LANGUAGE=zh_CN:zh USER=ylx SSH_AGENT_PID=1520 XDG_SESSION_TYPE=x11 SHLVL=0 HOME=/home/ylx DESKTOP_SESSION=ubuntu GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu MANAGERPID=1346 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GIO_LAUNCHED_DESKTOP_FILE_PID=1767 IM_CONFIG_PHASE=1 LOGNAME=ylx _=/usr/bin/dbus-update-activation-environment JOURNAL_STREAM=8:52354 DESKTOP_AUTOSTART_ID=10409683fc9b3301e6165283607612286000000015550055 XDG_SESSION_CLASS=user USERNAME=ylx GNOME_DESKTOP_SESSION_ID=this-is-deprecated WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin INVOCATION_ID=d2d9218a12c24b88a7a46b20ea2aa7a2 SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 XDG_RUNTIME_DIR=/run/user/1000 XDG_MENU_PREFIX=gnome- DISPLAY=:0 LANG=zh_CN.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_SESSION_DESKTOP=ubuntu XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus PWD=/home/ylx XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:08   0:00 -
+ylx         1775  0.2  2.1 296236 42264 ?        -    09:07   0:02 /usr/bin/vmtoolsd -n vmusr --blockFd 3 LANGUAGE=zh_CN:zh USER=ylx SSH_AGENT_PID=1520 XDG_SESSION_TYPE=x11 SHLVL=0 HOME=/home/ylx DESKTOP_SESSION=ubuntu GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/vmware-user.desktop GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu MANAGERPID=1346 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GIO_LAUNCHED_DESKTOP_FILE_PID=1772 IM_CONFIG_PHASE=1 LOGNAME=ylx _=/usr/bin/dbus-update-activation-environment JOURNAL_STREAM=8:52354 DESKTOP_AUTOSTART_ID=10409683fc9b3301e6165283607611966100000015550043 XDG_SESSION_CLASS=user USERNAME=ylx GNOME_DESKTOP_SESSION_ID=this-is-deprecated WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin INVOCATION_ID=d2d9218a12c24b88a7a46b20ea2aa7a2 SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 XDG_RUNTIME_DIR=/run/user/1000 XDG_MENU_PREFIX=gnome- DISPLAY=:0 LANG=zh_CN.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_SESSION_DESKTOP=ubuntu XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus PWD=/home/ylx XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+ylx            -  0.2    -      -     - -        Sl   09:07   0:02 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:08   0:00 -
+ylx         1802  0.0  0.7 345456 14956 ?        -    09:07   0:00 /usr/libexec/gsd-printer HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=04d34328ebcf47c6b7d23f7b08b9b752 JOURNAL_STREAM=8:53171
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx         1822  0.2  0.3 166052  7024 ?        -    09:07   0:01 /usr/libexec/ibus-engine-simple HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1346 INVOCATION_ID=a0c56c387a10492b894671b009f6c20a JOURNAL_STREAM=8:51838 GJS_DEBUG_OUTPUT=stderr GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:07   0:00 -
+ylx            -  0.1    -      -     - -        Sl   09:07   0:01 -
+ylx         1869  1.1  3.6 1095104 71904 ?       -    09:08   0:08 /usr/libexec/gnome-terminal-server HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=c2216014396e4adca23f78c160ce75af JOURNAL_STREAM=8:54210
+ylx            -  0.9    -      -     - -        Ssl  09:08   0:07 -
+ylx            -  0.0    -      -     - -        Ssl  09:08   0:00 -
+ylx            -  0.1    -      -     - -        Ssl  09:08   0:01 -
+ylx            -  0.0    -      -     - -        Ssl  09:08   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:08   0:00 -
+ylx         1879  0.0  0.2  14088  5032 pts/0    -    09:08   0:00 bash SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/2259528f_20df_4a5e_9b43_d765bbd22c7c SSH_AGENT_PID=1520 XDG_CURRENT_DESKTOP=ubuntu:GNOME LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh IM_CONFIG_PHASE=1 COLORTERM=truecolor QT_IM_MODULE=ibus GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 DESKTOP_SESSION=ubuntu USER=ylx XDG_MENU_PREFIX=gnome- HOME=/home/ylx PWD=/home/ylx DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GTK_MODULES=gail:atk-bridge _=/usr/bin/dbus-update-activation-environment XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_SESSION_DESKTOP=ubuntu JOURNAL_STREAM=8:53080 WINDOWPATH=2 GNOME_DESKTOP_SESSION_ID=this-is-deprecated MANAGERPID=1346 QT_ACCESSIBILITY=1 LOGNAME=ylx GNOME_TERMINAL_SERVICE=:1.66 VTE_VERSION=6003 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 XMODIFIERS=@im=ibus GNOME_SHELL_SESSION_MODE=ubuntu XDG_SESSION_TYPE=x11 SHELL=/bin/bash USERNAME=ylx INVOCATION_ID=4b4030b4d8044ede914f9e7551e195ce SHLVL=0 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_SESSION_CLASS=user TERM=xterm-256color GDMSESSION=ubuntu DISPLAY=:0
+ylx            -  0.0    -      -     - -        Ss   09:08   0:00 -
+ylx         1898  0.0  0.5 248300 10604 ?        -    09:08   0:00 /usr/lib/ibus/ibus-engine-libpinyin --ibus HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1346 INVOCATION_ID=a0c56c387a10492b894671b009f6c20a JOURNAL_STREAM=8:51838 GJS_DEBUG_OUTPUT=stderr GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+ylx            -  0.0    -      -     - -        Sl   09:08   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:08   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:08   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:08   0:00 -
+ylx         1906  0.0  0.3 165496  6448 ?        -    09:08   0:00 /usr/libexec/gvfsd-metadata HOME=/home/ylx LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=ylx PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=ylx XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 IM_CONFIG_PHASE=1 PWD=/home/ylx QT_IM_MODULE=ibus SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 SHLVL=0 SSH_AGENT_PID=1520 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=ylx WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1346 INVOCATION_ID=15a9578313fe40f2be5ac3e675de0a7e JOURNAL_STREAM=8:56395
+ylx            -  0.0    -      -     - -        Ssl  09:08   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:08   0:00 -
+ylx            -  0.0    -      -     - -        Ssl  09:08   0:00 -
+ylx         1909  0.0  1.6 444128 32816 ?        -    09:08   0:00 update-notifier LANGUAGE=zh_CN:zh USER=ylx SSH_AGENT_PID=1520 XDG_SESSION_TYPE=x11 SHLVL=0 HOME=/home/ylx DESKTOP_SESSION=ubuntu GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/update-notifier.desktop GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu MANAGERPID=1346 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GIO_LAUNCHED_DESKTOP_FILE_PID=1909 IM_CONFIG_PHASE=1 LOGNAME=ylx _=/usr/bin/dbus-update-activation-environment JOURNAL_STREAM=8:52354 DESKTOP_AUTOSTART_ID=10409683fc9b3301e6165283607611379300000015550026 XDG_SESSION_CLASS=user USERNAME=ylx GNOME_DESKTOP_SESSION_ID=this-is-deprecated WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin INVOCATION_ID=d2d9218a12c24b88a7a46b20ea2aa7a2 SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 XDG_RUNTIME_DIR=/run/user/1000 XDG_MENU_PREFIX=gnome- DISPLAY=:0 LANG=zh_CN.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_SESSION_DESKTOP=ubuntu XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus PWD=/home/ylx XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+ylx            -  0.0    -      -     - -        Sl   09:08   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:08   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:08   0:00 -
+ylx            -  0.0    -      -     - -        Sl   09:08   0:00 -
+ylx         2008  0.5  8.1 1156272 162304 ?      -    09:09   0:04 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map LANGUAGE=zh_CN:zh USER=ylx SSH_AGENT_PID=1520 XDG_SESSION_TYPE=x11 SHLVL=0 HOME=/home/ylx DESKTOP_SESSION=ubuntu GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/update-notifier.desktop GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu MANAGERPID=1346 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GIO_LAUNCHED_DESKTOP_FILE_PID=1909 IM_CONFIG_PHASE=1 LOGNAME=ylx _=/usr/bin/dbus-update-activation-environment JOURNAL_STREAM=8:52354 DESKTOP_AUTOSTART_ID=10409683fc9b3301e6165283607611379300000015550026 XDG_SESSION_CLASS=user USERNAME=ylx GNOME_DESKTOP_SESSION_ID=this-is-deprecated WINDOWPATH=2 PATH=/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin INVOCATION_ID=d2d9218a12c24b88a7a46b20ea2aa7a2 SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 XDG_RUNTIME_DIR=/run/user/1000 XDG_MENU_PREFIX=gnome- DISPLAY=:0 LANG=zh_CN.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_SESSION_DESKTOP=ubuntu XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus PWD=/home/ylx XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+ylx            -  0.5    -      -     - -        SNl  09:09   0:04 -
+ylx            -  0.0    -      -     - -        SNl  09:09   0:00 -
+ylx            -  0.0    -      -     - -        SNl  09:09   0:00 -
+ylx            -  0.0    -      -     - -        SNl  09:09   0:00 -
+ylx            -  0.0    -      -     - -        SNl  09:09   0:00 -
+root        2459  0.0  0.0   2616    92 ?        -    09:17   0:00 /bin/sh /etc/cron.weekly/update-notifier-common
+root           -  0.0    -      -     - -        S    09:17   0:00 -
+root        2461  0.0  0.0  11160   512 ?        -    09:17   0:00 sleep 853
+root           -  0.0    -      -     - -        S    09:17   0:00 -
+ylx         3288  0.0  0.1  14588  3316 pts/0    -    09:21   0:00 ps auxwwem SHELL=/bin/bash SESSION_MANAGER=local/ylx-virtual-machine:@/tmp/.ICE-unix/1555,unix/ylx-virtual-machine:/tmp/.ICE-unix/1555 QT_ACCESSIBILITY=1 COLORTERM=truecolor XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_MENU_PREFIX=gnome- GNOME_DESKTOP_SESSION_ID=this-is-deprecated PKG_CONFIG_PATH=/usr/local/opt/openssl@1/lib/pkgconfig LANGUAGE=zh_CN:zh GNOME_SHELL_SESSION_MODE=ubuntu SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XMODIFIERS=@im=ibus DESKTOP_SESSION=ubuntu SSH_AGENT_PID=1520 GTK_MODULES=gail:atk-bridge PWD=/home/ylx LOGNAME=ylx XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 XAUTHORITY=/run/user/1000/gdm/Xauthority WINDOWPATH=2 LDFLAGS=-L/usr/local/opt/openssl@1/lib HOME=/home/ylx USERNAME=ylx IM_CONFIG_PHASE=1 LANG=zh_CN.UTF-8 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: XDG_CURRENT_DESKTOP=ubuntu:GNOME VTE_VERSION=6003 GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/2259528f_20df_4a5e_9b43_d765bbd22c7c CPPFLAGS=-l/usr/local/opt/openssl@1/include INVOCATION_ID=4b4030b4d8044ede914f9e7551e195ce MANAGERPID=1346 LESSCLOSE=/usr/bin/lesspipe %s %s XDG_SESSION_CLASS=user TERM=xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=ylx GNOME_TERMINAL_SERVICE=:1.66 DISPLAY=:0 SHLVL=1 QT_IM_MODULE=ibus XDG_RUNTIME_DIR=/run/user/1000 JOURNAL_STREAM=8:53080 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop PATH=/usr/local/zeek/bin:/usr/local/opt/openssl@1/bin:/home/ylx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GDMSESSION=ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus _=/usr/bin/ps
+ylx            -  0.0    -      -     - -        R+   09:21   0:00 -
